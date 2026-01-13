@@ -221,6 +221,14 @@ main>section {
   /* img k gray korar jonno*/
 }
 
+/* Footer section style */
+footer {
+  max-width: 1440px;
+  padding: 38px 410px;
+  background-color: #FFF4E7;
+  margin: 130px auto 216px auto;
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
 
@@ -256,6 +264,13 @@ main>section {
     margin-top: 20px;
     margin-left: 20px;
   }
+
+  footer {
+    padding: 50px 100px;
+    margin: 100px auto;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /* medium size device */
@@ -280,6 +295,13 @@ main>section {
   #experience_badge {
     margin-top: 20px;
     margin-left: 20px;
+  }
+
+  footer {
+    padding: 50px 100px;
+    margin: 100px auto;
+    width: 100%;
+    text-align: center;
   }
 
 }
